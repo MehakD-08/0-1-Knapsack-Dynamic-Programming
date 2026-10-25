@@ -92,10 +92,10 @@ int main()
                        &weight[i],
                        &value[i]);
             }
-            printf("\n=================================\n");
+            printf("\n");
             printf("TEST CASE %d\n", testNumber);
             printf("n = %d, W = %d\n", n, W);
-            printf("=================================\n");
+            printf("\n");
             int result =
                 knapsack(n, W, weight, value);
             printf("Maximum Value = %d\n", result);
